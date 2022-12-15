@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favi/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>RGK</title>
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <div class="menu-principal">
+                <div class="logo">
+                    <h1>RGK</h1>
+                </div>
+                <div>
+                    <form action="pesquisar">
+                        <input type="search" name="pesquisar" id="pesquisar" placeholder="Pesquisar na RGK">
+                    </form>
+                </div>
+                <div class="icons-menu">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <circle cx="6" cy="19" r="2" />
+                        <circle cx="17" cy="19" r="2" />
+                        <path d="M17 17h-11v-14h-2" />
+                        <path d="M6 5l14 1l-1 7h-13" />
+                      </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M8.7 3h6.6c.3 0 .5 .1 .7 .3l4.7 4.7c.2 .2 .3 .4 .3 .7v6.6c0 .3 -.1 .5 -.3 .7l-4.7 4.7c-.2 .2 -.4 .3 -.7 .3h-6.6c-.3 0 -.5 -.1 -.7 -.3l-4.7 -4.7c-.2 -.2 -.3 -.4 -.3 -.7v-6.6c0 -.3 .1 -.5 .3 -.7l4.7 -4.7c.2 -.2 .4 -.3 .7 -.3z" />
+                        <line x1="12" y1="8" x2="12" y2="12" />
+                        <line x1="12" y1="16" x2="12.01" y2="16" />
+                      </svg>
+                </div>
+            </div>
+            <div class="menu-secundario">
+                <ul>
+                    <a href="#">RELÓGIOS</a>
+                    <a href="#">PULSEIRA</a>
+                    <a href="#">FONE BLUETOOTH</a>
+                    <a href="#">FONE COM FIO</a>
+                    <a href="#">CORDÃO</a>
+                    <a href="#">APARELHOS ELETRONICOS</a>
+                </ul>
+            </div>
+        </div>
+        <div class="banner">
+            <a href="#"><img src="assets/imgs/banner.png" alt="Banner"></a>
+        </div>
+        <div class="top-produtos">
+            <div class="box-centro-produtos">
+                <section class="box-produtos">
+                    <img src="assets/imgs/ITEM-FICTICIO.png" alt="ITEM-FICTICIO">
+                    <img src="assets/imgs/ITEM-FICTICIO.png" alt="ITEM-FICTICIO">
+                    <img src="assets/imgs/ITEM-FICTICIO.png" alt="ITEM-FICTICIO">
+                    <img src="assets/imgs/ITEM-FICTICIO.png" alt="ITEM-FICTICIO">
+                </section>
+            </div>
+        </div>
+        <div class="banner-menor">
+
+        </div>
+        <div class="box-envio">
+            <div class="box-envio-foto">
+            </div>
+            <div class="box-envio-mensagem">
+                <div class="envio-mensagem">
+                    <p>Está sem condições de comprar algum produtos agora?<br>
+                    Digite o seu <strong>nome</strong> e <strong>email</strong> para ficar por dentro de todas as nossas promoções e receber cupons de desconto!</p>
+                </div>
+                <form action="https://api.staticforms.xyz/submit" method="post" class="box-inputs">
+                    <input type="hidden" name="accessKey" value="88f84572-cd7b-42a0-b0c7-df1c31b15736">
+                    <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/Loja-1.0/index.html">
+                    <input type="text" name="name" placeholder="Primeiro Nome" id="nome">
+                    
+                    <input type="text" name="email" placeholder="Seu Email" id="email" />
+
+                    <input type="text" name="honeypot" style="display:none">
+
+                    <input type="hidden" name="subject" value="Quero Cupom da RGK!" />
+                    <input type="hidden" name="replyTo" value="@">
+                    
+                    <input type="submit" value="Enviar" id="btn-mss" />
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
